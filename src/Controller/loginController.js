@@ -23,7 +23,7 @@ module.exports.saveUser = async (req, res) => {
             password,
             address_id
          });
-      res.status(201).json({ d  ata: user });
+      res.status(201).json({ data: user });
   } catch (error) {
     console.log(error)
   }
